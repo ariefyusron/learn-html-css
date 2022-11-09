@@ -1,0 +1,14 @@
+/* selector tag html */
+div {
+  background-color: red;
+}
+
+/* selector class (diawali dengan tanda titik) */
+.content-1 {
+  background-color: blue;
+}
+
+/* selector id (diawalai dengan tanda pagar) */
+#content-1-id {
+  background-color: aqua;
+}
