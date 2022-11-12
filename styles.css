@@ -28,3 +28,23 @@ div {
   top: 0;
   z-index: 1;
 }
+
+.container-flex {
+  display: flex;
+  margin-top: 50px;
+  height: 500px;
+}
+
+.flex-left {
+  background-color: blue;
+  flex: 1;
+}
+
+.flex-right {
+  background-color: green;
+  flex: 1;
+}
+
+.flex-right:hover {
+  background-color: red;
+}
