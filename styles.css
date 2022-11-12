@@ -6,9 +6,25 @@ div {
 /* selector class (diawali dengan tanda titik) */
 .content-1 {
   background-color: blue;
+  padding: 50px;
+  border: 5px solid red;
+  position: relative;
 }
 
 /* selector id (diawalai dengan tanda pagar) */
 #content-1-id {
-  background-color: aqua;
+  background-color: green;
+}
+
+.content-1 .sub-content {
+  position: absolute;
+  top: 0;
+  background-color: pink;
+}
+
+.header {
+  position: fixed;
+  /* position: sticky; */
+  top: 0;
+  z-index: 1;
 }
