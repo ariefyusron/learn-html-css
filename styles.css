@@ -1,21 +1,60 @@
-.button-width {
-  width: 500px;
+body {
+  margin: 0;
+  background-color: #FFFFFF;
 }
 
-.header {
-  background-color: red;
+h1 {
+  margin: 0;
 }
 
-.side {
-  background-color: blue;
-  height: 500px;
+.title-logo {
+  font-size: 28px;
+  font-weight: 600;
+  color: #3B3949;
 }
 
-.content {
-  background-color: aqua;
-  height: 500px;
+.title-logo span {
+  color: #FF5F26;
 }
 
-.footer {
-  background-color: bisque;
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 80px;
+}
+
+.col-navbar {
+  display: flex;
+  align-items: center;
+}
+
+.wrap-profile {
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+  border: 1px solid #CCCED2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 24px;
+  margin-right: 14px;
+}
+
+.wrap-profile img {
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
+}
+
+.text-name {
+  font-size: 18px;
+  font-weight: 500;
+  color: #293038;
+  margin-right: 10px;
 }
