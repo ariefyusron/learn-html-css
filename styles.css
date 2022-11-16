@@ -7,6 +7,10 @@ h1 {
   margin: 0;
 }
 
+p {
+  margin: 0;
+}
+
 .title-logo {
   font-size: 28px;
   font-weight: 600;
@@ -57,4 +61,60 @@ h1 {
   font-weight: 500;
   color: #293038;
   margin-right: 10px;
+}
+
+.wrap-content {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  background-color: #fff;
+  box-shadow: 0px 16px 90px rgba(19, 7, 52, 0.08);
+  border-radius: 12px;
+  width: 800px;
+  padding: 40px 40px 27px 40px;
+  box-sizing: border-box;
+}
+
+.text-title-content {
+  font-size: 16px;
+  font-weight: 500;
+  color: #FF5F26;
+}
+
+.row-header-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.button-add {
+  background-color: #FF5F26;
+  display: flex;
+  border-radius: 60px;
+  width: 183px;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-button {
+  margin-left: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+}
+
+.title-todo-list {
+  font-size: 24px;
+  font-weight: 500;
+  color: #293038;
+  margin-bottom: 12px;
+}
+
+.desc-todo-list {
+  font-weight: 400;
+  font-size: 16px;
+  color: #7A7F83;
 }
